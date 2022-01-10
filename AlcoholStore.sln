@@ -4,6 +4,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlcoholStoreApp", "AlcoholS
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Data", "Data\Data.csproj", "{CC09FA19-5B7F-476F-BC71-ED9C61DDC587}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Settings", "Settings\Settings.csproj", "{222727C3-3ACD-4EEE-B004-4FA6114CFED2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +20,9 @@ Global
 		{CC09FA19-5B7F-476F-BC71-ED9C61DDC587}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CC09FA19-5B7F-476F-BC71-ED9C61DDC587}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CC09FA19-5B7F-476F-BC71-ED9C61DDC587}.Release|Any CPU.Build.0 = Release|Any CPU
+		{222727C3-3ACD-4EEE-B004-4FA6114CFED2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{222727C3-3ACD-4EEE-B004-4FA6114CFED2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{222727C3-3ACD-4EEE-B004-4FA6114CFED2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{222727C3-3ACD-4EEE-B004-4FA6114CFED2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

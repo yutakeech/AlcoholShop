@@ -2,14 +2,14 @@
 using Data;
 using Data.Memory;
 
-IStore CreateStore(string name, string address)
+IShop CreateStore(string name, string address)
 {
-    return new Store {Name = name, Address = address};
+    //return new Shop {Name = name, Address = address};
 }
 
-IAlcohol CreateDrink(string producer, double price, string description)
+IAlcohol CreateDrink(string producer, double price, string vintage, string name)
 {
-    return new Alcohol {Producer = producer, Price = price, Description = description};
+    return new Alcohol {Producer = producer, Price = price, Vintage = vintage, Name = name};
 }
 
 ICheck CreateCheck()
@@ -20,7 +20,7 @@ ICheck CreateCheck()
 void Main()
 {
     var store = CreateStore("Stakan", "Nevskogo, 14");
-    var alcohole = CreateDrink("Martini", 1000, "Для коктелей");
+    var alcohole = CreateDrink("Italy", 1000, "Для коктелей", "Martini");
 }
 
 namespace AlcoholStore

@@ -1,6 +1,6 @@
 using System.Xml;
 
-namespace Data.Memory
+namespace Data
 {
     public class Alcohol : IAlcohol
     {
